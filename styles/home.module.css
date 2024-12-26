@@ -1,0 +1,147 @@
+/* General body styling */
+
+
+/* Navbar styling with Twitter and GitHub links */
+.navbar {
+  position: fixed; /* Fixed position to stay at the top */
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 10; /* Keeps the navbar above other elements */
+}
+
+.navbar a {
+  margin: 0 20px;
+  color: white; /* Set Twitter and GitHub icon color to white */
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+/* Main content section */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px; /* Add space from the top, if needed */
+}
+
+/* Large Coinlytic text in the middle */
+.coinlytic {
+  font-size: 6rem; /* Increase size */
+  font-weight: bold;
+  color: white; /* Set Coinlytic text color to white */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Findings button style */
+.findingsButton {
+  background-color: #ffcc00;
+  color: black; /* Set button text color to black */
+  border: none;
+  padding: 20px 40px; /* Bigger button */
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.findingsButton:hover {
+  background-color: darkgoldenrod;
+}
+
+/* Icon size for Twitter and GitHub */
+.icon {
+  font-size: 3rem; /* Bigger icons */
+  color: white; /* Set icon color to white */
+  margin: 0 15px; /* Add space between icons */
+}
+
+/* Profile Picture Styling */
+.profilePicture {
+  width: 360px; /* Reduce the width to a more appropriate size */
+  height: 360px; /* Maintain the aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 30px; /* Space between the image and Coinlytic text */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* General body styling */
+
+
+/* Navbar styling with Twitter and GitHub links */
+.navbar {
+  position: fixed; /* Fixed position to stay at the top */
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 10; /* Keeps the navbar above other elements */
+}
+
+.navbar a {
+  margin: 0 20px;
+  color: white; /* Set Twitter and GitHub icon color to white */
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+/* Main content section */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px; /* Add space from the top, if needed */
+}
+
+/* Large Coinlytic text in the middle */
+.coinlytic {
+  font-size: 6rem; /* Increase size */
+  font-weight: bold;
+  color: white; /* Set Coinlytic text color to white */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Findings button style */
+.findingsButton {
+  background-color: #ffcc00;
+  color: black; /* Set button text color to black */
+  border: none;
+  padding: 20px 40px; /* Bigger button */
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.findingsButton:hover {
+  background-color: darkgoldenrod;
+}
+
+/* Icon size for Twitter and GitHub */
+.icon {
+  font-size: 3rem; /* Bigger icons */
+  color: white; /* Set icon color to white */
+  margin: 0 15px; /* Add space between icons */
+}
+
+/* Profile Picture Styling */
+.profilePicture {
+  width: 360px; /* Reduce the width to a more appropriate size */
+  height: 360px; /* Maintain the aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 30px; /* Space between the image and Coinlytic text */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}

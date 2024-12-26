@@ -1,0 +1,125 @@
+/* Styling for the Findings Page */
+.findingsContainer {
+  background-color: #121212; /* Dark background */
+  color: white;
+  min-height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align content to the top */
+  overflow-y: hidden; /* Prevent scrolling on the entire page */
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px; /* Height of the navbar */
+  z-index: 15;
+  background-color: #333; /* Navbar background */
+}
+
+.navbar a {
+  margin: 0 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.logoContainer {
+  margin-top: 280px; /* Space below the navbar */
+  margin-bottom: 20px; /* Add spacing below the logo */
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Entries List with Manual Scroll Control */
+.entriesList {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: 600px; /* Manually control scrollable height */
+  overflow-y: scroll; /* Force vertical scrolling */
+  padding: 20px; /* Add padding for content spacing */
+  padding-bottom: 80px; /* Add extra space at the bottom to extend scroll area */
+  box-sizing: border-box; /* Include padding in total height calculation */
+  background-color: #121212; /* Match page background */
+}
+
+.entry {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  word-wrap: break-word; /* Break long words or links */
+}
+
+.entry:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.entry h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.entry p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 10px;
+  line-height: 1.5; /* Better spacing between lines */
+}
+
+.entry a {
+  color: #1da1f2;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: auto; /* Pushes the link to the bottom of the entry */
+  text-decoration: none;
+}
+
+.entry a:hover {
+  text-decoration: underline;
+}
+
+.tweetLink {
+  display: flex;
+  align-items: center;
+}
+
+.tweetIcon {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none; /* Ignore user interaction */
+}
